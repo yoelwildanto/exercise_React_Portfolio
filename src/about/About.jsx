@@ -1,4 +1,5 @@
 // import { Section_title } from "./components/Section-title";
+import '../App.css'
 
 export const About = () =>{
     return(

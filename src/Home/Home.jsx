@@ -1,4 +1,6 @@
 import foto from '../asset/Robin2.png'
+import '../App.css'
+
 
 
 

@@ -1,3 +1,5 @@
+import '../App.css'
+
 export const Skills = () => {
     return (
         <section class="skills section" id="skills">
