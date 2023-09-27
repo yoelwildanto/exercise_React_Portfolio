@@ -15,7 +15,7 @@ const showNavBar = () => {
                 <a href="/#">Home</a>
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
-                <a href="#">Project</a>
+                <a href="/#">Project</a>
                 <button className="nav-btn close-btn" onClick={showNavBar}>
                 <FaTimes/>
                 </button>
