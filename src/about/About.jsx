@@ -1,5 +1,6 @@
 // import { Section_title } from "./components/Section-title";
 import '../App.css'
+import {BsArrowDownCircleFill} from 'react-icons/bs'
 
 export const About = () =>{
     return(
@@ -29,7 +30,7 @@ export const About = () =>{
                             <span>Success <br/> Projects </span>
                         </li>
                     </ul>
-                    {/* <a href="" className="btn">Download CV <i className="fa-solid fa-download"></i></a> */}
+                    <button className='btn'>Download CV <BsArrowDownCircleFill/> </button>
                 </div>
             </div>
         </div>

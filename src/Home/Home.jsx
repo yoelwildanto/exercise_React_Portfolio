@@ -1,4 +1,5 @@
 import foto from '../asset/Robin2.png'
+import {BsTwitter, BsInstagram, BsFacebook, BsArrowRightCircleFill} from 'react-icons/bs'
 import '../App.css'
 
 
@@ -9,9 +10,9 @@ export const Home = () => {
         <section className="home flex-center" id="home">
         <div className="home-container">
             <div className="media-icons">
-                <i className="fa-brands fa-facebook"></i>
-                <i className="fa-brands fa-instagram"></i>
-                <i className="fa-brands fa-twitter"></i>
+               <button><BsFacebook/></button>
+               <button><BsInstagram/></button>
+               <button><BsTwitter/></button>
             </div>
             <div className="info">
                 <h2>Hi, I'm Yoel Wildanto</h2>
@@ -22,7 +23,7 @@ export const Home = () => {
                 </div>
                 
                 <p>I create stunning website for your business, <br/>Highly experienced in web design and development.</p>
-                {/* <a href="" className="btn">Contact Me <i className="fa-solid fa-arrow-circle-right"></i></a> */}
+                <button className='btn'>Contact Me <BsArrowRightCircleFill/> </button>
             </div>
             <div className="home-img">
                 <img src= {foto} alt=""/>

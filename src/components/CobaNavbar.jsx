@@ -12,10 +12,10 @@ const showNavBar = () => {
         <header>
             <h3>Logo</h3>
             <nav ref={NavRef}>
-                <a href="/#">Home</a>
+                <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
-                <a href="/#">Project</a>
+                <a href="#home">Project</a>
                 <button className="nav-btn close-btn" onClick={showNavBar}>
                 <FaTimes/>
                 </button>

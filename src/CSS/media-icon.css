@@ -1,0 +1,11 @@
+.media-icons button{
+    padding: 10px;
+    border: none;
+    color: aqua;
+    margin: 50px 20px;
+    font-size: 100px;
+}
+
+.media-icons button:hover{
+    color: yellowgreen;
+}

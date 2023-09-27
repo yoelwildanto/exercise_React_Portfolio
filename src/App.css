@@ -115,6 +115,19 @@ header.sticky .nav-bar{
 
 
 /*Home */
+.media-icons button{
+  color: var(--second-color);
+  font-size: 1.5em;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.media-icons button:hover{
+  color: var(--red-color);
+}
+
 .home{
   position: relative;
   max-width: 1250px;
@@ -203,6 +216,9 @@ header.sticky .nav-bar{
   font-size: var(--normal-font-size);
   max-width: 480px;
 }
+.info button{
+  font-size: 20px;
+}
 
 .btn{
   background: var(--second-color);
@@ -214,6 +230,8 @@ header.sticky .nav-bar{
   padding: 20px 30px;
   letter-spacing: 1px;
   border-radius: 10px;
+  border: none;
+  outline: none;
 }
 
 .btn:hover{
