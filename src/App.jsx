@@ -1,6 +1,5 @@
 // import './App.css';
 // import './main.css';
-import {NavBar} from './components/NavBar'
 import { Home } from './Home/Home';
 import { About } from './about/About';
 import { Skills } from './Skill/Skill';
