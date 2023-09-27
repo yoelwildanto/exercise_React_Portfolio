@@ -9,9 +9,9 @@ export const Home = () => {
         <section className="home flex-center" id="home">
         <div className="home-container">
             <div className="media-icons">
-                <a href="#"><i className="fa-brands fa-facebook"></i></a>
-                <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                <i className="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-twitter"></i>
             </div>
             <div className="info">
                 <h2>Hi, I'm Yoel Wildanto</h2>
@@ -22,7 +22,7 @@ export const Home = () => {
                 </div>
                 
                 <p>I create stunning website for your business, <br/>Highly experienced in web design and development.</p>
-                <a href="" className="btn">Contact Me <i className="fa-solid fa-arrow-circle-right"></i></a>
+                {/* <a href="" className="btn">Contact Me <i className="fa-solid fa-arrow-circle-right"></i></a> */}
             </div>
             <div className="home-img">
                 <img src= {foto} alt=""/>

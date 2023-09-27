@@ -29,7 +29,7 @@ export const About = () =>{
                             <span>Success <br/> Projects </span>
                         </li>
                     </ul>
-                    <a href="" className="btn">Download CV <i className="fa-solid fa-download"></i></a>
+                    {/* <a href="" className="btn">Download CV <i className="fa-solid fa-download"></i></a> */}
                 </div>
             </div>
         </div>
