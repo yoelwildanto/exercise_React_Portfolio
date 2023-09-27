@@ -11,7 +11,6 @@ import { NavBar2 } from './components/CobaNavbar';
 function App() {
   return (
     <div>
-      {/* <NavBar/> */}
       <NavBar2/>
       <Home/>
       <About/>
